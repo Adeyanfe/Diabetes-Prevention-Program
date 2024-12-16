@@ -7,7 +7,7 @@
 - [Objective](#objective)
 - [Data Analysis](#data-analysis)
 - [Results](#results)
-- [Recommendations](recommendations)
+- [Recommendations](#recommendations)
 
 ### Project Overview
 
