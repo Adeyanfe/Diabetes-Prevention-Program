@@ -8,7 +8,7 @@
 - [Data Analysis](#data-analysis)
 - [Results](#results)
 - [Recommendations](#recommendations)
-- []
+- [Visualization](#visualization)
 
 ### Project Overview
 
