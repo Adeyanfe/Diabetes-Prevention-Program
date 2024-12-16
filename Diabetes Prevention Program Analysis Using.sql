@@ -29,6 +29,20 @@ select state, category, count (*) AS Initiative_count
 FROM DiabetesPreventionProgram
 GROUP BY state, category;
 
+----6 Distribution of Initiatives across different providers
+SELECT organization_name, COUNT(*) AS Initiative_Count
+FROM DiabetesPreventionProgram
+GROUP BY organization_name
+ORDER BY Initiative_Count DESC
+LIMIT 10;
+
+----7. Volume of initiatives by cities and states.
+SELECT City, State, COUNT(*) AS Initiative_Count
+FROM DiabetesPreventionProgram
+GROUP BY City, State
+ORDER BY Initiative_Count DESC;
+
+
 
 
 
